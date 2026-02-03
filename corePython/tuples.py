@@ -1,0 +1,6 @@
+t = (25,10,46,78,19)
+print(t)
+print(max(t))
+print(min(t))
+print(len(t))
+print(sum(t))

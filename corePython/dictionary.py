@@ -1,0 +1,18 @@
+d1 = {"name":"Ram","surname":"sharma","age":18,"amount":500.25}
+print(d1)
+print(len(d1))
+print(d1.keys())
+print(d1.values())
+print(d1.get("name"))
+print(d1.items())
+d2 = d1.copy()
+print(d2)
+print(d2.pop("surname"))
+print(d2.popitem())
+d2.update({"age":20})
+print(d2)
+d2.setdefault("amount",2500.15)
+print(d2)
+d2.clear()
+print(d2)
+

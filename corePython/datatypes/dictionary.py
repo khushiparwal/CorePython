@@ -1,8 +1,8 @@
 d1 = {"name":"Ram","surname":"sharma","age":18,"amount":500.25}
 print(d1)
-print(len(d1))
-print(d1.keys())
-print(d1.values())
+print("length:",len(d1))
+print("keys:",d1.keys())
+print("values:",d1.values())
 print(d1.get("name"))
 print(d1.items())
 d2 = d1.copy()

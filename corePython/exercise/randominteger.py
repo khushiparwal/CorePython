@@ -1,8 +1,7 @@
-from random import randint
-from turtledemo.sorting_animate import randomize
+import random
 
 n = 5
 while n!=0:
-        n1 = randint(1,101)
+        n1 = random.randint(1,101)
         print(n1)
         n -= 1

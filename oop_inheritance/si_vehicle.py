@@ -8,6 +8,7 @@ class Vehicle:
         return self.capacity
 class Car(Vehicle):
     def __init__(self):
+        super().__init__()
         self.name = input("Enter name of car:")
         self.color = input("Enter color of car:")
     def get_name(self):

@@ -13,6 +13,7 @@ class Shape:
 
 class Square(Shape):
     def __init__(self):
+        super().__init__()
         self.side = 0
     def set_side(self,s):
         self.side=s

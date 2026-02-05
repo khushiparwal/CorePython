@@ -1,6 +1,0 @@
-t = (25,10,46,78,19)
-print(t)
-print("max:",max(t))
-print("min:",min(t))
-print("length:",len(t))
-print("sum:",sum(t))

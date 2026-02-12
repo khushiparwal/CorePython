@@ -1,0 +1,6 @@
+file = open("../files/abxd.txt")
+file.seek(5)
+str_data = file.read(5)
+print(str_data)
+print(file.tell())
+file.close()

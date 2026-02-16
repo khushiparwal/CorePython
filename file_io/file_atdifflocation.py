@@ -3,4 +3,6 @@ def readfile():
     t = file.read()
     print(t)
     file.close()
+
+
 readfile()
